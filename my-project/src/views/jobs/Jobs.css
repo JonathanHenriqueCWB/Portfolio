@@ -1,0 +1,58 @@
+.Jobs {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Jobs h2 {
+  color: #61248a;
+  margin-bottom: 30px;
+}
+.Jobs p {
+  margin-bottom: 50px;
+}
+
+.Jobs a {
+  font-weight: bold;
+  color: #61248a;
+  text-decoration: none;
+}
+
+.Img-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ddd7;
+}
+
+.ImgBox {
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #61248a;
+  margin: 0.5px;
+}
+
+#Img1 {
+  background-image: url("../../img/proj1.jpg");
+}
+#Img2 {
+  background-image: url("../../img/proj2.jpg");
+}
+#Img3 {
+  background-image: url("../../img/proj3.jpg");
+}
+#Img4 {
+  background-image: url("../../img/proj4.jpg");
+}
+#Img5 {
+  background-image: url("../../img/proj5.jpg");
+}
+#Img6 {
+  background-image: url("../../img/proj6.jpg");
+}
+#Img7 {
+  background-image: url("../../img/proj7.jpg");
+}
+#Img8 {
+  background-image: url("../../img/proj8.jpg");
+}

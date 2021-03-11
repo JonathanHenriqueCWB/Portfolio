@@ -1,0 +1,37 @@
+.Banner {
+    height: 70vh;
+    background-image: url('../../img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner div {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Banner div img {
+    margin: 30px 0;
+    padding: 10px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #61248a80;
+}
+
+.Banner p {
+    background-color: #61248a80;
+    font-weight: bold;
+    padding: 15px 50px;
+    border-radius: 10px;
+}

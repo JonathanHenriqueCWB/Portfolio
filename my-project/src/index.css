@@ -1,0 +1,9 @@
+body, p, h1, h2, input, textarea {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 30px;
+}

@@ -1,0 +1,36 @@
+.Header {
+  background-color: #61248a;
+  color: #fff;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Header div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Header div img {
+  height: 40px;
+  margin: 0 10px 0 10px;
+  transform: rotate(45deg);
+}
+
+.Header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.Header nav ul li a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}

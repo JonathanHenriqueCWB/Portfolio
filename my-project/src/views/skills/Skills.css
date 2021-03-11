@@ -1,0 +1,49 @@
+.Skills {
+  margin: -100px auto 0 auto;
+}
+
+.Container {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  width: calc(33% - 100px);
+  min-width: 100px;
+  text-align: center;
+  padding: 50px;
+}
+
+.Card img {
+  width: 90px;
+  border: 1px solid #61248a;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px #61248a70;
+}
+
+.Card h3 {
+  color: #61248a;
+}
+
+@media screen and (max-width: 1020px) {
+  .Skills {
+    margin: 0;
+  }
+
+  .Card {
+    width: 100%;
+    border-right: none;
+  }
+
+  .Container {
+    width: 100%;
+  }
+}

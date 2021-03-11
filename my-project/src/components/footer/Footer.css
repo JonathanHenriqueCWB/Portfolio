@@ -1,0 +1,37 @@
+.Footer {
+    background-color: #61248a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+.Footer p {
+    margin-top: 25px;
+}
+
+.Footer form{
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+.Footer input, .Footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .Footer form{
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+  }
+  
